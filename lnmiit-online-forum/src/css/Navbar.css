@@ -1,0 +1,90 @@
+.qHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.5);
+}
+
+.qHeader_logo > img{
+    height: 30px;
+    margin-right: 20px;
+}
+
+.qHeader_icons{
+    display: flex;
+    margin-right: 20px;
+}
+
+.qHeader_icon > .MuiSvgIcon-root{
+    color : #EC8F5E;
+    cursor: pointer;
+    font-size: xx-large;
+    padding : 5px 20px;
+    /*for the color of icons*/
+}
+
+.qHeader_icon > .MuiSvgIcon-root:hover{
+    color: #83A2FF;
+    border-radius: 10px;
+    background-color: #D2DE32; 
+    /*css part of hover icons*/
+}
+
+.qHeader__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #EC8F5E;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.qHeader__input > input{
+    background-color: #00A9FF;
+    outline: none;
+    border: none;
+    color: #FFFB73;
+}
+
+.qHeader_input > .MuiSvgIcon-root{
+    color: #EC8F5E;
+}
+
+.qHeader_Rem{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.qHeader_Rem > .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: #EC8F5E;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.qHeader_Rem > .MuiSvgIcon-root:hover{
+    color: #83A2FF;
+    background-color: #D2DE32;
+}
+
+.qHeader_Rem > .MuiButton-root{
+    /* corresponds to add post button */
+    color: #EC8F5E;
+    margin-left: 25px;
+    text-transform: inherit;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.qHeader_Rem > .MuiButton-root:hover{
+    color: #83A2FF;
+    background-color: #D2DE32;
+
+}
