@@ -1,0 +1,106 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.post_info{
+    display: flex;
+    align-items: center;
+}
+
+.post_info > h5{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.post_info > h5 :hover{
+    text-decoration: underline;
+}
+
+.post_info > small{
+    margin-left: 10px;
+}
+
+.post_body{
+    display: flex;
+    flex-direction: column;
+}
+
+.post_body > .post_question{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.post_question > .postbtnAnswer{
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.post_body > .post_question > p:hover{
+    text-decoration: underline;
+}
+
+/* not needed as of now since we are not posting images.
+.post_body > img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}*/
+
+.post_footer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post_footer > .MuiSvgIcon-root{
+    color: green;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.post_footerAction{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 33px;
+    padding: 5px;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.post_footerAction > .MuiSvgIcon-root{
+    color: yellow;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.post_footerAction > .MuiSvgIcon-root:hover{
+    color: yellow;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.post_footerLeft{
+    margin-left: auto;
+}
+
+.post_footerLeft > .MuiSvgIcon-root{
+    color: green;
+    cursor: pointer;
+    margin-left: 30px;
+}
